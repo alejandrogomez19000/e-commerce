@@ -1,0 +1,34 @@
+.game-card{
+  padding: 1.25rem;
+  width: 100%;
+
+  .game-card-header{
+    width: 100%;
+    margin-bottom: .75rem;
+   
+    .header-image{
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .game-card-body{
+    .title{
+      font-size: 1.1rem;
+      letter-spacing: .05rem;
+    }
+    .description{
+      font-size: .8rem;
+      letter-spacing: .01rem;
+      span{
+        color: #007bff;
+        cursor: pointer;
+      }
+    }
+  }
+  .game-card-footer{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #007bff;
+    margin-top: .5rem;
+  }
+}

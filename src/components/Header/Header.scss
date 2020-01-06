@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+
+  .left {
+    ul {
+      display:flex;
+      list-style: none;
+      margin-bottom: 0;
+
+      .item {
+        a {
+          display: inline-block;
+          padding: 15px 20px;
+          color: #2a2a2a;
+        }
+      }
+    }
+  }
+}
